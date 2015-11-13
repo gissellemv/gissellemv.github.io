@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700italic,400);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+body{
+
+background-color: rgb(227,	215,	188		);
+
+font-family: "Oxygen", serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+}
+#box{
+  max-width: 600px;
+  min-width: 50px;
+  margin: 0 auto;
+  background-image: url("subtle_grunge.jpg");
+
+
+}
+address {
+  padding-bottom: 1em;
+}
+h1{
+  font-family: 'Josefin Slab', serif;
+}
+
+a:hover {
+  color: rgb(72,0,23);
+}
+a:visited {
+  color:rgb(208,88,1);
+}
+
+a {
+  color:rgb(140,107,53);}
+
+h1,h2,h3{font-family: 'Josefin Slab', serif;
+font-weight: 700;
+font-style: italic;}
+
+header{
+  text-align: center;
+}
+
+P,Li{
+line-height:1.5;
+}
+img{
+  margin-left: 8em;
+  margin-right: 2em;
+  border:2px solid black;
+}
+
+.start {
+  display: inline;
+
+
+}
+
+nav {
+  width: 550px;
+  text-align: center;
+  margin-right: 8em;
+  margin-left: 1em;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+
+section {
+  border-bottom: 1px solid #222;
+  margin-left: 2em;
+}
+
+footer{
+  margin-left: 2em;
+  padding-bottom:1em;
+}

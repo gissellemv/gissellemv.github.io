@@ -1,0 +1,66 @@
+body{
+font-family: serif;
+font-size:pt;
+color: black;
+
+}
+#box{
+  max-width: 6.25in;
+  min-width: .52in;
+  margin: 0 auto;
+  background-image: url("subtle_grunge.jpg");
+}
+
+address {
+  padding-bottom: 0.16in;
+}
+
+h1{
+  font-family: 'Josefin Slab', serif;
+}
+
+h1,h2,h3{font-family: 'Josefin Slab', serif;
+font-weight: 7.3in;
+font-style: italic;}
+
+header{
+  text-align: center;
+}
+a {
+  text-decoration: none;}
+
+P,Li{
+line-height:0.2in;
+}
+img{
+  margin-left: 1.33in;
+  margin-right: 0.33in;
+  border:0.02in solid black;
+}
+
+.start {
+  display: inline;
+}
+
+a[href^="http"]:after{
+  content: " ("attr(href)") ";
+}
+nav {
+  width: 5.72in;
+  text-align: center;
+  margin-right: 1.33in;
+  margin-left: .17in;
+  border-top: 1pt solid #222;
+  border-bottom: 1pt solid #222;
+}
+
+section {
+  border-bottom: 1pt solid #222;
+  margin-left: .33in;
+  margin-bottom: .5in;
+}
+
+footer{
+  margin-left: .33in;
+  padding-bottom:.17in;
+}
