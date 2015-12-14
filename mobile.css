@@ -1,3 +1,4 @@
+@media (max-width:320px){
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700italic,400);
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 body{
@@ -9,24 +10,13 @@ font-weight: 400;
 font-size: 18px;
 line-height: 1.5;
 }
-#vbox{
-  max-width: 800px;
-  min-width: 50px;
-  margin-left: 200px;
-  margin-right: 20px;
-  padding-right: 30px;
-  background-image: url("subtle_grunge.jpg");
-  text-align: center;
-}
 #box{
   max-width: 600px;
   min-width: 50px;
   margin: 0 auto;
   background-image: url("subtle_grunge.jpg");
 }
-#hh {
-  text-align: left;
-}
+
   #homepic {
     -webkit-shape-outside: circle(50%);
     shape-outside: circle(50%);
@@ -40,7 +30,6 @@ address {
 }
 h1{
   font-family: 'Josefin Slab', serif;
-  text-align:center;
 }
 
 a:hover {
@@ -71,13 +60,9 @@ nav ul li{
   display: inline;
   margin-right: 20px;
 }
-nav {
-    text-align: center;
-}
 #navhome li{
   margin-bottom: 30px;
   display:block;
-  text-align: left;
 }
 #homelink {
   width: 550px;
@@ -107,4 +92,5 @@ section {
 footer{
   margin-left: 2em;
   padding-bottom:1em;
+}
 }
