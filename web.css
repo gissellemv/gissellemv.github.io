@@ -14,7 +14,23 @@ line-height: 1.5;
   min-width: 50px;
   margin-left: 200px;
   margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-right: 30px;
+  background-image: url("subtle_grunge.jpg");
+  text-align: center;
+}
+ol li{
+  list-style: none;
+}
+#projbox {
+  max-width: 800px;
+  min-width: 50px;
+  margin-left: 200px;
+  margin-right: 20px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-image: url("subtle_grunge.jpg");
   text-align: center;
 }
@@ -23,6 +39,9 @@ line-height: 1.5;
   min-width: 50px;
   margin: 0 auto;
   background-image: url("subtle_grunge.jpg");
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #hh {
   text-align: left;
@@ -107,4 +126,7 @@ section {
 footer{
   margin-left: 2em;
   padding-bottom:1em;
+}
+.mobile{
+  display: none;
 }

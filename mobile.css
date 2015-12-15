@@ -1,32 +1,45 @@
 @media (max-width:320px){
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700italic,400);
-@import url(https://fonts.googleapis.com/css?family=Oxygen);
 body{
-
-background-color: rgb(227,	215,	188		);
-
-font-family: "Oxygen", serif;
-font-weight: 400;
-font-size: 18px;
-line-height: 1.5;
+font-size: 25px;
 }
-#box{
+#vbox{
   max-width: 600px;
   min-width: 50px;
   margin: 0 auto;
   background-image: url("subtle_grunge.jpg");
-}
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
+}
+img{
+  display: none;
+}
   #homepic {
-    -webkit-shape-outside: circle(50%);
-    shape-outside: circle(50%);
+    -webkit-shape-outside: square(50%);
+    shape-outside: square;
     border-radius: 50%;
-    float: left;
+    float: top;
     margin-right; 20px;
     width: 250px;
+    display:inline-block;
 }
-address {
-  padding-bottom: 1em;
+#projbox{
+  max-width: 600px;
+  min-width: 50px;
+  margin: 0 auto;
+  background-image: url("subtle_grunge.jpg");
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#border {
+  width: 250px;
+  text-align: center;
+  margin-right: 8em;
+  margin-left: 1em;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
 }
 h1{
   font-family: 'Josefin Slab', serif;
@@ -43,7 +56,7 @@ a {
   color:rgb(140,107,53);}
 
 h1,h2,h3{font-family: 'Josefin Slab', serif;
-font-weight: 700;
+font-weight: 25;
 font-style: italic;}
 
 header{
@@ -57,40 +70,18 @@ img{
 }
 nav ul li{
   list-style: none;
-  display: inline;
-  margin-right: 20px;
+  display: block;
 }
 #navhome li{
   margin-bottom: 30px;
-  display:block;
-}
-#homelink {
-  width: 550px;
-  text-align: center;
-  margin-right: 8em;
-  margin-left: 1em;
-}
-#border {
-  width: 550px;
-  text-align: center;
-  margin-right: 8em;
-  margin-left: 1em;
-  border-top: 1px solid #222;
-  border-bottom: 1px solid #222;
-}
-#contactlinks ul li{
-  list-style: none;
   display:inline;
-  margin-right: 100px;
-  margin-top: 100px;
-}
-section {
-  border-bottom: 1px solid #222;
-  margin-left: 2em;
-}
 
-footer{
-  margin-left: 2em;
-  padding-bottom:1em;
+}
+.mobile{
+  display: inline-block;
+
+}
+.web{
+  display:none;
 }
 }

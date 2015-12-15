@@ -46,12 +46,8 @@ a[href^="http"]:after{
   content: " ("attr(href)") ";
 }
 nav {
-  width: 5.72in;
-  text-align: center;
-  margin-right: 1.33in;
-  margin-left: .17in;
-  border-top: 1pt solid #222;
-  border-bottom: 1pt solid #222;
+display: none;
+
 }
 
 section {
